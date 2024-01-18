@@ -4,7 +4,8 @@
   ],
   "rules": {
     "camelcase": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "no-useless-constructor": "off",
+    "eslint-disable-next-line prettier/prettier": true
   }
 
 }
