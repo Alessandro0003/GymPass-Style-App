@@ -18,7 +18,7 @@ GymPass style app.
 
 -> [ ] Deve ser possível o usuário buscar academias pelo nome
 
--> [ ] Deve ser possível o usuário realizar check-in em uma academia
+-> [x] Deve ser possível o usuário realizar check-in em uma academia
 
 -> [ ] Deve ser possível validar o check-in de um usuário 
 
@@ -28,7 +28,7 @@ GymPass style app.
 
 -> [x] O usuario não deve poder se cadastrar com um e-mail duplicado
 
--> [ ] O usuario nao pode fazer 2 check-in no mesmo dia
+-> [x] O usuario nao pode fazer 2 check-in no mesmo dia
 
 -> [ ] O usuario não pode fazer check-in se não estiver perto (100m ) da academia
 
