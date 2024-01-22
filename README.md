@@ -14,13 +14,13 @@ GymPass style app.
 
 -> [x] Deve ser possível o usuário obter seu histórico de check-ins
 
--> [ ] Deve ser possível o usuário buscar academias próximas
+-> [x] Deve ser possível o usuário buscar academias próximas (até 10km)
 
--> [ ] Deve ser possível o usuário buscar academias pelo nome
+-> [x] Deve ser possível o usuário buscar academias pelo nome
 
 -> [x] Deve ser possível o usuário realizar check-in em uma academia
 
--> [ ] Deve ser possível validar o check-in de um usuário 
+-> [x] Deve ser possível validar o check-in de um usuário 
 
 -> [x] Deve ser possível cadastrar uma academia
 
@@ -32,7 +32,7 @@ GymPass style app.
 
 -> [x] O usuario não pode fazer check-in se não estiver perto (100m ) da academia
 
--> [ ] O check-in só pode ser validado até 20min após criado
+-> [x] O check-in só pode ser validado até 20min após criado"
 
 -> [ ] O check-in só pode ser validado por administradores
 
