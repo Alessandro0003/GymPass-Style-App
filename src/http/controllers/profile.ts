@@ -2,7 +2,6 @@ import { makeGetUserProfileUseCase } from '@/use-cases/factories/make-get-user-p
 import { FastifyRequest, FastifyReply } from 'fastify'
 
 export async function Profile(request: FastifyRequest, reply: FastifyReply) {
-  await request.jwtVerify()
 
   const getUserProfile = makeGetUserProfileUseCase()
 
