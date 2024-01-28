@@ -2,7 +2,7 @@ import { z } from 'zod'
 import { FastifyRequest, FastifyReply } from 'fastify'
 import { makeCreateGymUseCase } from '@/use-cases/factories/make-create-gym-use-case'
 
-export async function CreateGyms(request: FastifyRequest, reply: FastifyReply) {
+export async function create(request: FastifyRequest, reply: FastifyReply) {
   const createGymBodySchema = z.object({
     title: z.string(),
     description: z.string().nullable(),

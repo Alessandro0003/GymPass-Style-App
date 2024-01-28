@@ -2,7 +2,7 @@ import { z } from 'zod'
 import { FastifyRequest, FastifyReply } from 'fastify'
 import { makeSearchGymsUseCase } from '@/use-cases/factories/make-search-gyms-use-case'
 
-export async function SearchGyms(request: FastifyRequest, reply: FastifyReply) {
+export async function search(request: FastifyRequest, reply: FastifyReply) {
   const searchGymQuerySchema = z.object({
    q: z.string(),
    page: z.coerce.number().min(1).default(1),
