@@ -10,7 +10,7 @@ export async function create(request: FastifyRequest, reply: FastifyReply) {
     latitude: z.number().refine(value => {
         return Math.abs(value) <= 90
     }),
-    longitude:  z.number().refine(value => {
+    longitude: z.number().refine(value => {
         return Math.abs(value) <= 180
     }),
   })
