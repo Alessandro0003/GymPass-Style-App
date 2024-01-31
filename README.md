@@ -34,9 +34,9 @@ GymPass style app.
 
 -> [x] O check-in só pode ser validado até 20min após criado"
 
--> [ ] O check-in só pode ser validado por administradores
+-> [X] O check-in só pode ser validado por administradores
 
--> [ ] A academia só pode ser cadastrada por administradores
+-> [X] A academia só pode ser cadastrada por administradores
 
 ## RNFs (Requisitos não-funcionais)
 
@@ -46,4 +46,4 @@ GymPass style app.
 
 -> [x] Todos listas de dados precisam estar paginadas com 20 itens por paginas
 
--> [ ] O usuario deve ser identificado por um JWT (JSON Web Token) 
+-> [X] O usuario deve ser identificado por um JWT (JSON Web Token) 
