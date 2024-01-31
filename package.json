@@ -4,6 +4,8 @@
   "description": "GymPass style app.",
   "main": "index.js",
   "scripts": {
+    "migration": "npx prisma migrate dev",
+    "prisma": "npx prisma studio",
     "start:dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
     "test:create-prisma-environment": "npm link ./prisma/vitest-environment-prisma",

@@ -1,5 +1,5 @@
 node_modules
 build
 .env
-prisma/migrations/*create_*/*.sql
+prisma/migrations/**
 coverage
